@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20DDF952AB13FD800AB8252 /* Bereal4FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDF942AB13FD800AB8252 /* Bereal4FoodApp.swift */; };
+		B20DDF972AB13FD800AB8252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDF962AB13FD800AB8252 /* ContentView.swift */; };
+		B20DDF992AB13FD900AB8252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20DDF982AB13FD900AB8252 /* Assets.xcassets */; };
+		B20DDF9D2AB13FD900AB8252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20DDF9C2AB13FD900AB8252 /* Preview Assets.xcassets */; };
+		B20DDFA72AB13FD900AB8252 /* Bereal4FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDFA62AB13FD900AB8252 /* Bereal4FoodTests.swift */; };
+		B20DDFB12AB13FD900AB8252 /* Bereal4FoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDFB02AB13FD900AB8252 /* Bereal4FoodUITests.swift */; };
+		B20DDFB32AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDFB22AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20DDFA32AB13FD900AB8252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20DDF892AB13FD800AB8252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20DDF902AB13FD800AB8252;
+			remoteInfo = Bereal4Food;
+		};
+		B20DDFAD2AB13FD900AB8252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20DDF892AB13FD800AB8252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20DDF902AB13FD800AB8252;
+			remoteInfo = Bereal4Food;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20DDF912AB13FD800AB8252 /* Bereal4Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bereal4Food.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20DDF942AB13FD800AB8252 /* Bereal4FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bereal4FoodApp.swift; sourceTree = "<group>"; };
+		B20DDF962AB13FD800AB8252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20DDF982AB13FD900AB8252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20DDF9A2AB13FD900AB8252 /* Bereal4Food.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bereal4Food.entitlements; sourceTree = "<group>"; };
+		B20DDF9C2AB13FD900AB8252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B20DDFA22AB13FD900AB8252 /* Bereal4FoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bereal4FoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20DDFA62AB13FD900AB8252 /* Bereal4FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bereal4FoodTests.swift; sourceTree = "<group>"; };
+		B20DDFAC2AB13FD900AB8252 /* Bereal4FoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bereal4FoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20DDFB02AB13FD900AB8252 /* Bereal4FoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bereal4FoodUITests.swift; sourceTree = "<group>"; };
+		B20DDFB22AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bereal4FoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20DDF8E2AB13FD800AB8252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDF9F2AB13FD900AB8252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDFA92AB13FD900AB8252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20DDF882AB13FD800AB8252 = {
+			isa = PBXGroup;
+			children = (
+				B20DDF932AB13FD800AB8252 /* Bereal4Food */,
+				B20DDFA52AB13FD900AB8252 /* Bereal4FoodTests */,
+				B20DDFAF2AB13FD900AB8252 /* Bereal4FoodUITests */,
+				B20DDF922AB13FD800AB8252 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20DDF922AB13FD800AB8252 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDF912AB13FD800AB8252 /* Bereal4Food.app */,
+				B20DDFA22AB13FD900AB8252 /* Bereal4FoodTests.xctest */,
+				B20DDFAC2AB13FD900AB8252 /* Bereal4FoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20DDF932AB13FD800AB8252 /* Bereal4Food */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDF942AB13FD800AB8252 /* Bereal4FoodApp.swift */,
+				B20DDF962AB13FD800AB8252 /* ContentView.swift */,
+				B20DDF982AB13FD900AB8252 /* Assets.xcassets */,
+				B20DDF9A2AB13FD900AB8252 /* Bereal4Food.entitlements */,
+				B20DDF9B2AB13FD900AB8252 /* Preview Content */,
+			);
+			path = Bereal4Food;
+			sourceTree = "<group>";
+		};
+		B20DDF9B2AB13FD900AB8252 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDF9C2AB13FD900AB8252 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B20DDFA52AB13FD900AB8252 /* Bereal4FoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDFA62AB13FD900AB8252 /* Bereal4FoodTests.swift */,
+			);
+			path = Bereal4FoodTests;
+			sourceTree = "<group>";
+		};
+		B20DDFAF2AB13FD900AB8252 /* Bereal4FoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDFB02AB13FD900AB8252 /* Bereal4FoodUITests.swift */,
+				B20DDFB22AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift */,
+			);
+			path = Bereal4FoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20DDF902AB13FD800AB8252 /* Bereal4Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20DDFB62AB13FD900AB8252 /* Build configuration list for PBXNativeTarget "Bereal4Food" */;
+			buildPhases = (
+				B20DDF8D2AB13FD800AB8252 /* Sources */,
+				B20DDF8E2AB13FD800AB8252 /* Frameworks */,
+				B20DDF8F2AB13FD800AB8252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bereal4Food;
+			productName = Bereal4Food;
+			productReference = B20DDF912AB13FD800AB8252 /* Bereal4Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20DDFA12AB13FD900AB8252 /* Bereal4FoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20DDFB92AB13FD900AB8252 /* Build configuration list for PBXNativeTarget "Bereal4FoodTests" */;
+			buildPhases = (
+				B20DDF9E2AB13FD900AB8252 /* Sources */,
+				B20DDF9F2AB13FD900AB8252 /* Frameworks */,
+				B20DDFA02AB13FD900AB8252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20DDFA42AB13FD900AB8252 /* PBXTargetDependency */,
+			);
+			name = Bereal4FoodTests;
+			productName = Bereal4FoodTests;
+			productReference = B20DDFA22AB13FD900AB8252 /* Bereal4FoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20DDFAB2AB13FD900AB8252 /* Bereal4FoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20DDFBC2AB13FD900AB8252 /* Build configuration list for PBXNativeTarget "Bereal4FoodUITests" */;
+			buildPhases = (
+				B20DDFA82AB13FD900AB8252 /* Sources */,
+				B20DDFA92AB13FD900AB8252 /* Frameworks */,
+				B20DDFAA2AB13FD900AB8252 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20DDFAE2AB13FD900AB8252 /* PBXTargetDependency */,
+			);
+			name = Bereal4FoodUITests;
+			productName = Bereal4FoodUITests;
+			productReference = B20DDFAC2AB13FD900AB8252 /* Bereal4FoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20DDF892AB13FD800AB8252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B20DDF902AB13FD800AB8252 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B20DDFA12AB13FD900AB8252 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B20DDF902AB13FD800AB8252;
+					};
+					B20DDFAB2AB13FD900AB8252 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = B20DDF902AB13FD800AB8252;
+					};
+				};
+			};
+			buildConfigurationList = B20DDF8C2AB13FD800AB8252 /* Build configuration list for PBXProject "Bereal4Food" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20DDF882AB13FD800AB8252;
+			productRefGroup = B20DDF922AB13FD800AB8252 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20DDF902AB13FD800AB8252 /* Bereal4Food */,
+				B20DDFA12AB13FD900AB8252 /* Bereal4FoodTests */,
+				B20DDFAB2AB13FD900AB8252 /* Bereal4FoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20DDF8F2AB13FD800AB8252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DDF9D2AB13FD900AB8252 /* Preview Assets.xcassets in Resources */,
+				B20DDF992AB13FD900AB8252 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDFA02AB13FD900AB8252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDFAA2AB13FD900AB8252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20DDF8D2AB13FD800AB8252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DDF972AB13FD800AB8252 /* ContentView.swift in Sources */,
+				B20DDF952AB13FD800AB8252 /* Bereal4FoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDF9E2AB13FD900AB8252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DDFA72AB13FD900AB8252 /* Bereal4FoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20DDFA82AB13FD900AB8252 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20DDFB32AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift in Sources */,
+				B20DDFB12AB13FD900AB8252 /* Bereal4FoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20DDFA42AB13FD900AB8252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20DDF902AB13FD800AB8252 /* Bereal4Food */;
+			targetProxy = B20DDFA32AB13FD900AB8252 /* PBXContainerItemProxy */;
+		};
+		B20DDFAE2AB13FD900AB8252 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20DDF902AB13FD800AB8252 /* Bereal4Food */;
+			targetProxy = B20DDFAD2AB13FD900AB8252 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20DDFB42AB13FD900AB8252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20DDFB52AB13FD900AB8252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B20DDFB72AB13FD900AB8252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bereal4Food/Bereal4Food.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bereal4Food/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U7XP56VTS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholascandello.Bereal4Food;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20DDFB82AB13FD900AB8252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Bereal4Food/Bereal4Food.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bereal4Food/Preview Content\"";
+				DEVELOPMENT_TEAM = 3U7XP56VTS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholascandello.Bereal4Food;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20DDFBA2AB13FD900AB8252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7XP56VTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholascandello.Bereal4FoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bereal4Food.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bereal4Food";
+			};
+			name = Debug;
+		};
+		B20DDFBB2AB13FD900AB8252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7XP56VTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholascandello.Bereal4FoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bereal4Food.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bereal4Food";
+			};
+			name = Release;
+		};
+		B20DDFBD2AB13FD900AB8252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7XP56VTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholascandello.Bereal4FoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bereal4Food;
+			};
+			name = Debug;
+		};
+		B20DDFBE2AB13FD900AB8252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7XP56VTS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholascandello.Bereal4FoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bereal4Food;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20DDF8C2AB13FD800AB8252 /* Build configuration list for PBXProject "Bereal4Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20DDFB42AB13FD900AB8252 /* Debug */,
+				B20DDFB52AB13FD900AB8252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20DDFB62AB13FD900AB8252 /* Build configuration list for PBXNativeTarget "Bereal4Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20DDFB72AB13FD900AB8252 /* Debug */,
+				B20DDFB82AB13FD900AB8252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20DDFB92AB13FD900AB8252 /* Build configuration list for PBXNativeTarget "Bereal4FoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20DDFBA2AB13FD900AB8252 /* Debug */,
+				B20DDFBB2AB13FD900AB8252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20DDFBC2AB13FD900AB8252 /* Build configuration list for PBXNativeTarget "Bereal4FoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20DDFBD2AB13FD900AB8252 /* Debug */,
+				B20DDFBE2AB13FD900AB8252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20DDF892AB13FD800AB8252 /* Project object */;
+}
