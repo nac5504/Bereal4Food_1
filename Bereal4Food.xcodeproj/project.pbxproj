@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B20DDF952AB13FD800AB8252 /* Bereal4FoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDF942AB13FD800AB8252 /* Bereal4FoodApp.swift */; };
-		B20DDF972AB13FD800AB8252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDF962AB13FD800AB8252 /* ContentView.swift */; };
+		B20DDF972AB13FD800AB8252 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDF962AB13FD800AB8252 /* LandingPage.swift */; };
 		B20DDF992AB13FD900AB8252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20DDF982AB13FD900AB8252 /* Assets.xcassets */; };
 		B20DDF9D2AB13FD900AB8252 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20DDF9C2AB13FD900AB8252 /* Preview Assets.xcassets */; };
 		B20DDFA72AB13FD900AB8252 /* Bereal4FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDFA62AB13FD900AB8252 /* Bereal4FoodTests.swift */; };
 		B20DDFB12AB13FD900AB8252 /* Bereal4FoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDFB02AB13FD900AB8252 /* Bereal4FoodUITests.swift */; };
 		B20DDFB32AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDFB22AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift */; };
+		B20DDFC02AB1433300AB8252 /* SelfProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDFBF2AB1433300AB8252 /* SelfProfileView.swift */; };
+		B20DDFC22AB143F200AB8252 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20DDFC12AB143F200AB8252 /* ContactsView.swift */; };
+		B225C8632AB4E6DB00A5446B /* MainScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B225C8622AB4E6DB00A5446B /* MainScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		B20DDF912AB13FD800AB8252 /* Bereal4Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bereal4Food.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20DDF942AB13FD800AB8252 /* Bereal4FoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bereal4FoodApp.swift; sourceTree = "<group>"; };
-		B20DDF962AB13FD800AB8252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20DDF962AB13FD800AB8252 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 		B20DDF982AB13FD900AB8252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20DDF9A2AB13FD900AB8252 /* Bereal4Food.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bereal4Food.entitlements; sourceTree = "<group>"; };
 		B20DDF9C2AB13FD900AB8252 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		B20DDFAC2AB13FD900AB8252 /* Bereal4FoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bereal4FoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B20DDFB02AB13FD900AB8252 /* Bereal4FoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bereal4FoodUITests.swift; sourceTree = "<group>"; };
 		B20DDFB22AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bereal4FoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B20DDFBF2AB1433300AB8252 /* SelfProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfProfileView.swift; sourceTree = "<group>"; };
+		B20DDFC12AB143F200AB8252 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		B225C8622AB4E6DB00A5446B /* MainScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				B20DDF942AB13FD800AB8252 /* Bereal4FoodApp.swift */,
-				B20DDF962AB13FD800AB8252 /* ContentView.swift */,
+				B20DDF962AB13FD800AB8252 /* LandingPage.swift */,
+				B225C8662AB4F2F600A5446B /* Tabs */,
 				B20DDF982AB13FD900AB8252 /* Assets.xcassets */,
 				B20DDF9A2AB13FD900AB8252 /* Bereal4Food.entitlements */,
 				B20DDF9B2AB13FD900AB8252 /* Preview Content */,
@@ -127,6 +134,16 @@
 				B20DDFB22AB13FD900AB8252 /* Bereal4FoodUITestsLaunchTests.swift */,
 			);
 			path = Bereal4FoodUITests;
+			sourceTree = "<group>";
+		};
+		B225C8662AB4F2F600A5446B /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B20DDFC12AB143F200AB8252 /* ContactsView.swift */,
+				B225C8622AB4E6DB00A5446B /* MainScrollView.swift */,
+				B20DDFBF2AB1433300AB8252 /* SelfProfileView.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20DDF972AB13FD800AB8252 /* ContentView.swift in Sources */,
+				B20DDF972AB13FD800AB8252 /* LandingPage.swift in Sources */,
 				B20DDF952AB13FD800AB8252 /* Bereal4FoodApp.swift in Sources */,
+				B20DDFC02AB1433300AB8252 /* SelfProfileView.swift in Sources */,
+				B225C8632AB4E6DB00A5446B /* MainScrollView.swift in Sources */,
+				B20DDFC22AB143F200AB8252 /* ContactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
