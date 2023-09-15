@@ -14,7 +14,7 @@ struct MainScrollView: View {
             HStack {
                 
                 Button {
-                    tabSelection = .contactsView
+                    self.tabSelection = .contactsView
                 } label: {
                     Image(systemName: "person.2.fill")
                         .padding()
@@ -22,7 +22,7 @@ struct MainScrollView: View {
                 
                 Spacer()
                 Button {
-                    tabSelection = .mainScrollView
+                    self.tabSelection = .mainScrollView
 
                 } label: {
                     Text("BeReal 4 Food")
@@ -31,7 +31,7 @@ struct MainScrollView: View {
                 }
                 Spacer()
                 Button {
-                    tabSelection = .selfProfileView
+                    self.tabSelection = .selfProfileView
 
                 } label: {
                     Image(systemName: "person.circle.fill")

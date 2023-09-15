@@ -11,7 +11,7 @@ import SwiftUI
 struct Bereal4FoodApp: App {
     var body: some Scene {
         WindowGroup {
-            LandingPage()
+            LandingPage(tabSelection: .mainScrollView)
         }
     }
 }

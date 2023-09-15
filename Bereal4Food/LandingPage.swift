@@ -29,14 +29,10 @@ struct LandingPage: View {
                 SelfProfileView(tabSelection: $tabSelection)
                     .tag(Tabs.selfProfileView)
                 
-            }.tabViewStyle(.page(indexDisplayMode: .never))
+            }
+            .tabViewStyle(.page(indexDisplayMode: .never))
                 .animation(.easeInOut)
                 .transition(.slide)
-            
-            
-                .onAppear {
-                    self.tabSelection = .mainScrollView
-                }
             
         }
     }
